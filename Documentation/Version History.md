@@ -1,6 +1,16 @@
-v0.1 Foundation
+Distance Battle
 
-- GitHub Created
-- Documentation Created
-- Design Locked
+Version 0.1.0
+
+Codename:
+Foundation
+
+Features
+
+• GitHub Repository
+• Documentation
+• Project Architecture
+• Gameplay Design
+• Arena Design
+• Plugin Structure
 
