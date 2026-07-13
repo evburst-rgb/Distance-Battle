@@ -22,3 +22,21 @@ Foundation Complete
 Next Milestone
 
 Plugin Framework
+
+
+
+# Development Session
+
+## Milestone: Heartbeat
+
+Today's accomplishments:
+
+- Installed Visual Studio
+- Installed official plugin template
+- Created DistanceBattlePlugin
+- Retargeted project to the latest toolset
+- Successfully compiled the plugin
+
+Result:
+
+Distance Battle is now a working C++ project.
