@@ -2,14 +2,24 @@
 #include "DistanceBattlePlugin.h"
 
 
-BAKKESMOD_PLUGIN(DistanceBattlePlugin, "write a plugin description here", plugin_version, PLUGINTYPE_FREEPLAY)
+BAKKESMOD_PLUGIN(
+	DistanceBattlePlugin,
+	"Distance Battle by EvBurst - Every Meter Matters.",
+	plugin_version,
+	PLUGINTYPE_FREEPLAY
+)
 
 std::shared_ptr<CVarManagerWrapper> _globalCvarManager;
 
 void DistanceBattlePlugin::onLoad()
 {
 	_globalCvarManager = cvarManager;
-	//LOG("Plugin loaded!");
+	LOG("========================================");
+	LOG(" Distance Battle");
+	LOG(" Version {}", plugin_version);
+	LOG(" Created by EvBurst");
+	LOG(" Every Meter Matters.");
+	LOG("========================================");
 	// !! Enable debug logging by setting DEBUG_LOG = true in logging.h !!
 	//DEBUGLOG("DistanceBattlePlugin debug mode enabled");
 
